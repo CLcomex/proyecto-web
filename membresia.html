@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Club de Perros - Experiencias con Propósito</title>
+    <title>Membresías - Mi Club de Perros</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -26,46 +26,63 @@
         </div>
     </nav>
 
-    <header class="relative h-[600px] flex items-center justify-center text-center text-white">
-        <img src="https://images.pexels.com/photos/4870867/pexels-photo-4870867.jpeg?auto=compress&cs=tinysrgb&w=1260" 
-             class="absolute inset-0 w-full h-full object-cover brightness-50" alt="Perro feliz jugando">
-        
-        <div class="relative z-10 px-4">
-            <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Celebra momentos únicos <br> con los que más te necesitan</h1>
-            <p class="text-xl mb-8 max-w-2xl mx-auto">Únete a nuestro club y vive la experiencia de festejar tu cumpleaños en un albergue, rodeado de amor incondicional.</p>
-            <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="#" class="bg-orange-600 px-8 py-4 rounded-lg text-lg font-bold hover:bg-orange-700 transition">Reserva un Cumpleaños</a>
-                <a href="#" class="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition">Ver Planes de Ayuda</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="py-20 container mx-auto px-6">
-        <div class="text-center mb-16">
-            <h2 class="text-3xl font-bold mb-4">Experiencia de Cumpleaños</h2>
-            <div class="h-1 w-20 bg-orange-600 mx-auto"></div>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-                <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                     class="rounded-2xl shadow-xl" alt="Perros en el albergue">
-            </div>
-            <div class="space-y-6">
-                <h3 class="text-2xl font-bold text-gray-800">¿Cómo funciona?</h3>
-                <p class="text-gray-600 text-lg leading-relaxed">
-                    Transforma tu día especial en una oportunidad de ayuda. Al celebrar con nosotros, los fondos van directamente al mantenimiento del albergue y cuidado de nuestros peludos.
+    <main class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            
+            <div class="text-center mb-16">
+                <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Nuestros Planes de Membresía</h1>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Tu apoyo mensual nos permite rescatar más vidas. ¡Elige el plan que mejor se adapte a ti!
                 </p>
-                <ul class="space-y-4 text-gray-700">
-                    <li class="flex items-center gap-3"><i class="fas fa-check-circle text-green-500"></i> Interacción con perros sociables</li>
-                    <li class="flex items-center gap-3"><i class="fas fa-check-circle text-green-500"></i> Fotos profesionales de tu evento</li>
-                    <li class="flex items-center gap-3"><i class="fas fa-check-circle text-green-500"></i> Espacio 100% pet-friendly</li>
-                </ul>
+                <div class="h-1 w-24 bg-orange-600 mx-auto mt-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+                
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-t-8 border-blue-400 hover:shadow-2xl transition-all duration-300">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Amigo Fiel</h2>
+                    <p class="text-gray-500 mb-6 italic">Aporte básico esencial</p>
+                    <div class="text-4xl font-bold mb-6 text-gray-900">S/ 20 <span class="text-sm font-normal text-gray-400">/mes</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-600">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Certificado de socio</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Newsletter mensual</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Descuento 5% en tienda</li>
+                    </ul>
+                    <button class="w-full border-2 border-blue-600 text-blue-600 py-3 rounded-xl font-bold hover:bg-blue-600 hover:text-white transition">Seleccionar</button>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-2xl border-t-8 border-orange-600 relative transform md:scale-105 z-10">
+                    <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-orange-600 text-white px-4 py-1 rounded-full text-xs font-bold tracking-widest uppercase">Más Popular</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Héroe del Club</h2>
+                    <p class="text-gray-500 mb-6 italic">Impacto real garantizado</p>
+                    <div class="text-4xl font-bold mb-6 text-gray-900">S/ 50 <span class="text-sm font-normal text-gray-400">/mes</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-600">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Todo lo anterior</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Kit de bienvenida físico</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> 1 visita guiada al mes</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Descuento 15% en tienda</li>
+                    </ul>
+                    <button class="w-full bg-orange-600 text-white py-3 rounded-xl font-bold hover:bg-orange-700 transition shadow-lg">Unirme Ahora</button>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-t-8 border-gray-800 hover:shadow-2xl transition-all duration-300">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Gran Padrino</h2>
+                    <p class="text-gray-500 mb-6 italic">Liderazgo y compromiso</p>
+                    <div class="text-4xl font-bold mb-6 text-gray-900">S/ 100 <span class="text-sm font-normal text-gray-400">/mes</span></div>
+                    <ul class="space-y-4 mb-8 text-gray-600">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Todo lo anterior</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Sesión fotográfica anual</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Mención en muro de honor</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-green-500"></i> Acceso eventos exclusivos</li>
+                    </ul>
+                    <button class="w-full bg-gray-800 text-white py-3 rounded-xl font-bold hover:bg-black transition">Seleccionar</button>
+                </div>
+
             </div>
         </div>
-    </section>
+    </main>
 
-    <a href="https://wa.me/51999999999" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:bg-green-600 transition-all z-50">
+    <a href="https://wa.me/51999999999" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:bg-green-600 hover:scale-110 transition-all z-50">
         <i class="fab fa-whatsapp"></i>
     </a>
 
